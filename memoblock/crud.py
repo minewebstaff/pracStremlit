@@ -1,6 +1,6 @@
+import model
+import schema
 from sqlalchemy.orm import Session
-
-from . import model, schema
 
 
 def get_memos(db: Session, skip: int = 0, limit: int = 100):

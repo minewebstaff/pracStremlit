@@ -11,3 +11,8 @@ dependencies = [
     "streamlit>=1.39.0",
     "uvicorn>=0.32.0",
 ]
+
+[tool.uv]
+dev-dependencies = [
+    "mypy>=1.13.0",
+]
